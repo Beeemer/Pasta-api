@@ -14,6 +14,7 @@ const pool = new Pool({
     ssl: {
         rejectUnauthorized: false, // нужно за Neon
     },
+    client_encoding: "UTF8",
 });
 
 // middlewares
